@@ -8,10 +8,16 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+#import "BaiduMobAdSplashDelegate.h"
+#import "BaiduMobAdSplash.h"
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate,BaiduMobAdSplashDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
+@property (strong, nonatomic) BaiduMobAdSplash *splash;
+
+@property (strong, nonatomic) UIView *customSplashView;
 
 @end
 

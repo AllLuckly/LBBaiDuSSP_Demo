@@ -5,6 +5,22 @@
    <BuildAction
       parallelizeBuildables = "YES"
       buildImplicitDependencies = "YES">
+      <BuildActionEntries>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9F8B33C01C2D9F5B006EE9BD"
+               BuildableName = "LBBaiDuSSP_Demo.app"
+               BlueprintName = "LBBaiDuSSP_Demo"
+               ReferencedContainer = "container:LBBaiDuSSP_Demo.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+      </BuildActionEntries>
    </BuildAction>
    <TestAction
       buildConfiguration = "Debug"
@@ -12,7 +28,36 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9F8B33D91C2D9F5B006EE9BD"
+               BuildableName = "LBBaiDuSSP_DemoTests.xctest"
+               BlueprintName = "LBBaiDuSSP_DemoTests"
+               ReferencedContainer = "container:LBBaiDuSSP_Demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "9F8B33E41C2D9F5B006EE9BD"
+               BuildableName = "LBBaiDuSSP_DemoUITests.xctest"
+               BlueprintName = "LBBaiDuSSP_DemoUITests"
+               ReferencedContainer = "container:LBBaiDuSSP_Demo.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9F8B33C01C2D9F5B006EE9BD"
+            BuildableName = "LBBaiDuSSP_Demo.app"
+            BlueprintName = "LBBaiDuSSP_Demo"
+            ReferencedContainer = "container:LBBaiDuSSP_Demo.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
@@ -26,6 +71,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9F8B33C01C2D9F5B006EE9BD"
+            BuildableName = "LBBaiDuSSP_Demo.app"
+            BlueprintName = "LBBaiDuSSP_Demo"
+            ReferencedContainer = "container:LBBaiDuSSP_Demo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -35,6 +90,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "9F8B33C01C2D9F5B006EE9BD"
+            BuildableName = "LBBaiDuSSP_Demo.app"
+            BlueprintName = "LBBaiDuSSP_Demo"
+            ReferencedContainer = "container:LBBaiDuSSP_Demo.xcodeproj">
+         </BuildableReference>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">
